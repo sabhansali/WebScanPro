@@ -1,0 +1,307 @@
+{
+    "DVWA": [
+        {
+            "url": "http://localhost",
+            "forms": [
+                {
+                    "method": "POST",
+                    "action": "http://localhost/login.php",
+                    "inputs": [
+                        {
+                            "name": "username",
+                            "type": "text"
+                        },
+                        {
+                            "name": "password",
+                            "type": "password"
+                        },
+                        {
+                            "name": "Login",
+                            "type": "submit"
+                        },
+                        {
+                            "name": "user_token",
+                            "type": "hidden"
+                        }
+                    ]
+                }
+            ],
+            "links": []
+        }
+    ],
+    "bWAPP": [
+        {
+            "url": "http://localhost:8080",
+            "forms": [
+                {
+                    "method": "POST",
+                    "action": "http://localhost:8080/login.php",
+                    "inputs": [
+                        {
+                            "name": "login",
+                            "type": "text"
+                        },
+                        {
+                            "name": "password",
+                            "type": "password"
+                        },
+                        {
+                            "name": "security_level",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://localhost:8080/user_new.php",
+                "http://localhost:8080/info.php",
+                "http://localhost:8080/training.php"
+            ]
+        },
+        {
+            "url": "http://localhost:8080/user_new.php",
+            "forms": [
+                {
+                    "method": "POST",
+                    "action": "http://localhost:8080/user_new.php",
+                    "inputs": [
+                        {
+                            "name": "login",
+                            "type": "text"
+                        },
+                        {
+                            "name": "email",
+                            "type": "text"
+                        },
+                        {
+                            "name": "password",
+                            "type": "password"
+                        },
+                        {
+                            "name": "password_conf",
+                            "type": "password"
+                        },
+                        {
+                            "name": "secret",
+                            "type": "text"
+                        },
+                        {
+                            "name": "mail_activation",
+                            "type": "checkbox"
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://localhost:8080/login.php",
+                "http://localhost:8080/info.php",
+                "http://localhost:8080/training.php"
+            ]
+        },
+        {
+            "url": "http://localhost:8080/info.php",
+            "forms": [],
+            "links": [
+                "http://localhost:8080/login.php",
+                "http://localhost:8080/user_new.php",
+                "http://localhost:8080/training.php"
+            ]
+        },
+        {
+            "url": "http://localhost:8080/training.php",
+            "forms": [],
+            "links": [
+                "http://localhost:8080/login.php",
+                "http://localhost:8080/user_new.php",
+                "http://localhost:8080/info.php"
+            ]
+        },
+        {
+            "url": "http://localhost:8080/login.php",
+            "forms": [
+                {
+                    "method": "POST",
+                    "action": "http://localhost:8080/login.php",
+                    "inputs": [
+                        {
+                            "name": "login",
+                            "type": "text"
+                        },
+                        {
+                            "name": "password",
+                            "type": "password"
+                        },
+                        {
+                            "name": "security_level",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://localhost:8080/user_new.php",
+                "http://localhost:8080/info.php",
+                "http://localhost:8080/training.php"
+            ]
+        }
+    ],
+    "JuiceShop": [
+        {
+            "url": "http://localhost:3000",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/#/login",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
+                "http://localhost:3000/#/forgot-password",
+                "http://localhost:3000/#/register"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/#/contact",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/#/about",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
+                "http://localhost:3000/ftp/legal.md"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/#/photo-wall",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
+            "forms": [
+                {
+                    "method": "GET",
+                    "action": "https://github.com/juice-shop/juice-shop",
+                    "inputs": [
+                        {
+                            "name": "query-builder-test",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "method": "POST",
+                    "action": "https://github.com/search/feedback",
+                    "inputs": [
+                        {
+                            "name": "authenticity_token",
+                            "type": "hidden"
+                        },
+                        {
+                            "name": "feedback",
+                            "type": "textarea"
+                        },
+                        {
+                            "name": "include_email",
+                            "type": "checkbox"
+                        }
+                    ]
+                },
+                {
+                    "method": "POST",
+                    "action": "https://github.com/search/custom_scopes",
+                    "inputs": [
+                        {
+                            "name": "authenticity_token",
+                            "type": "hidden"
+                        },
+                        {
+                            "name": "custom_scope_id",
+                            "type": "hidden"
+                        },
+                        {
+                            "name": "custom_scope_name",
+                            "type": "text"
+                        },
+                        {
+                            "name": "custom_scope_query",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://localhost:3000/",
+                "http://localhost:3000/",
+                "http://localhost:3000/"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/#/forgot-password",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/#/register",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
+                "http://localhost:3000/#/login"
+            ]
+        },
+        {
+            "url": "http://localhost:3000/ftp/legal.md",
+            "forms": [],
+            "links": []
+        },
+        {
+            "url": "http://localhost:3000/",
+            "forms": [],
+            "links": [
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/#/about",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop"
+            ]
+        }
+    ]
+}
