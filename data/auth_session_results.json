@@ -1,0 +1,31 @@
+[
+    {
+        "site": "DVWA",
+        "issue": "Weak / Default Credentials",
+        "username": "admin",
+        "password": "password",
+        "severity": "High"
+    },
+    {
+        "site": "bWAPP",
+        "issue": "Weak / Default Credentials",
+        "username": "bee",
+        "password": "bug",
+        "severity": "High"
+    },
+    {
+        "site": "DVWA",
+        "issue": "Session Fixation",
+        "detail": "Session ID did not change after login",
+        "severity": "Medium"
+    },
+    {
+        "recommendations": [
+            "Enforce HTTPS across the application",
+            "Set Secure and HttpOnly flags on cookies",
+            "Regenerate session ID after login",
+            "Implement account lockout / rate limiting",
+            "Avoid default credentials in production"
+        ]
+    }
+]
