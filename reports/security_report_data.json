@@ -1,0 +1,110 @@
+[
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Cross-Site Scripting (XSS)",
+        "endpoint": "http://localhost:3000/redirect?to=xss123test",
+        "impact": "Security impact detected",
+        "recommendation": "Validate and sanitize all user inputs. Apply proper output encoding. Implement Content Security Policy (CSP). Avoid reflecting untrusted input in responses.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Authentication Misconfiguration",
+        "endpoint": "Application Login Module",
+        "impact": "Security impact detected",
+        "recommendation": "Remove default credentials before deployment. Enforce strong password policies. Implement account lockout and rate limiting.",
+        "raw_severity": "High",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Authentication Misconfiguration",
+        "endpoint": "Application Login Module",
+        "impact": "Security impact detected",
+        "recommendation": "Remove default credentials before deployment. Enforce strong password policies. Implement account lockout and rate limiting.",
+        "raw_severity": "High",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Session Management Vulnerability",
+        "endpoint": "Application Session Handling",
+        "impact": "Security impact detected",
+        "recommendation": "Regenerate session IDs after successful login. Set Secure and HttpOnly flags on cookies. Enforce HTTPS across the application.",
+        "raw_severity": "Medium",
+        "ai_severity": "High",
+        "risk_score": 10
+    },
+    {
+        "type": "Insecure Direct Object Reference (IDOR)",
+        "endpoint": "http://localhost/vulnerabilities/sqli/?id=2&Submit=Submit",
+        "impact": "Unauthorized access to another user's data",
+        "recommendation": "Enforce server-side authorization checks Bind objects to authenticated user identity Use indirect object references Implement RBAC or ABAC policies",
+        "raw_severity": "High",
+        "ai_severity": "High",
+        "risk_score": 10
+    }
+]
