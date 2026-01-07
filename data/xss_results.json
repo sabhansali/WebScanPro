@@ -1,0 +1,58 @@
+[
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    },
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    },
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    },
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    },
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    },
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    },
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    },
+    {
+        "url": "http://localhost:3000/redirect?to=xss123test",
+        "parameter": "to",
+        "payload": "xss123test",
+        "type": "reflected-xss-url",
+        "evidence": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Unrecognized target URL for redirect: xss123test</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  background-repeat: no-repeat;\n  color: #555;\n  -webkit-font-smoothing: antialias"
+    }
+]
