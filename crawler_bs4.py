@@ -28,9 +28,6 @@ class SimpleCrawlerBS4:
             return token["value"]
         return None
 
-    # ======================================================
-    # FIXED LOGIN HANDLING (DVWA + bWAPP)
-    # ======================================================
     def login(self):
         if not self.login_url:
             return
@@ -78,7 +75,6 @@ class SimpleCrawlerBS4:
         except Exception as e:
             print(f"[LOGIN][ERROR] {e}")
 
-    # ======================================================
     def extract_links(self, soup, current_url):
         links = set()
         for tag in soup.find_all("a", href=True):
@@ -105,9 +101,6 @@ class SimpleCrawlerBS4:
             })
         return forms
 
-    # ======================================================
-    # FIXED CRAWLING
-    # ======================================================
     def crawl(self, max_depth=3):
         self.login()
 
@@ -146,7 +139,6 @@ class SimpleCrawlerBS4:
 
         return self.results
 
-    # ======================================================
     def crawl_sqli_challenges(self):
         dvwa = [
             "http://localhost/vulnerabilities/sqli/",
@@ -172,7 +164,6 @@ class SimpleCrawlerBS4:
             except Exception as e:
                 print(f"[ERROR][SQLi] {url}: {e}")
 
-    # ======================================================
     def crawl_xss_challenges(self):
         dvwa = [
             "http://localhost/vulnerabilities/xss_r/",
