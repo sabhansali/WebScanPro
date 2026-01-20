@@ -4,144 +4,77 @@
             "url": "http://localhost",
             "forms": [],
             "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
                 "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
                 "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
                 "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
                 "http://localhost/security.php",
                 "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
             ]
         },
         {
-            "url": "http://localhost/",
-            "forms": [],
-            "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
-                "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
-                "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
-                "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
-                "http://localhost/security.php",
-                "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
-            ]
-        },
-        {
-            "url": "http://localhost/vulnerabilities/xss_r/",
+            "url": "http://localhost/vulnerabilities/brute/",
             "forms": [
                 {
                     "action": "#",
                     "method": "GET",
                     "inputs": [
                         {
-                            "name": "name",
+                            "name": "username",
                             "type": "text",
                             "value": null
                         },
                         {
-                            "name": null,
-                            "type": "submit",
-                            "value": "Submit"
-                        }
-                    ],
-                    "url": "http://localhost/vulnerabilities/xss_r/"
-                }
-            ],
-            "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
-                "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
-                "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
-                "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
-                "http://localhost/security.php",
-                "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
-            ]
-        },
-        {
-            "url": "http://localhost/vulnerabilities/sqli/",
-            "forms": [
-                {
-                    "action": "#",
-                    "method": "GET",
-                    "inputs": [
-                        {
-                            "name": "id",
-                            "type": "text",
+                            "name": "password",
+                            "type": "password",
                             "value": null
                         },
                         {
-                            "name": "Submit",
+                            "name": "Login",
                             "type": "submit",
-                            "value": "Submit"
+                            "value": "Login"
                         }
                     ],
-                    "url": "http://localhost/vulnerabilities/sqli/"
+                    "url": "http://localhost/vulnerabilities/brute/"
                 }
             ],
             "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
                 "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
                 "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
                 "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
                 "http://localhost/security.php",
                 "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
             ]
         },
         {
@@ -166,27 +99,117 @@
                 }
             ],
             "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
                 "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
                 "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
                 "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
                 "http://localhost/security.php",
                 "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
+            ]
+        },
+        {
+            "url": "http://localhost/vulnerabilities/sqli/",
+            "forms": [
+                {
+                    "action": "#",
+                    "method": "GET",
+                    "inputs": [
+                        {
+                            "name": "id",
+                            "type": "text",
+                            "value": null
+                        },
+                        {
+                            "name": "Submit",
+                            "type": "submit",
+                            "value": "Submit"
+                        }
+                    ],
+                    "url": "http://localhost/vulnerabilities/sqli/"
+                }
+            ],
+            "links": [
+                "http://localhost/vulnerabilities/brute/",
+                "http://localhost/vulnerabilities/sqli_blind/",
+                "http://localhost/vulnerabilities/csrf/",
+                "http://localhost/security.php",
+                "http://localhost/vulnerabilities/captcha/",
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
+            ]
+        },
+        {
+            "url": "http://localhost/vulnerabilities/sqli_blind/",
+            "forms": [
+                {
+                    "action": "#",
+                    "method": "GET",
+                    "inputs": [
+                        {
+                            "name": "id",
+                            "type": "text",
+                            "value": null
+                        },
+                        {
+                            "name": "Submit",
+                            "type": "submit",
+                            "value": "Submit"
+                        }
+                    ],
+                    "url": "http://localhost/vulnerabilities/sqli_blind/"
+                }
+            ],
+            "links": [
+                "http://localhost/vulnerabilities/brute/",
+                "http://localhost/vulnerabilities/sqli_blind/",
+                "http://localhost/vulnerabilities/csrf/",
+                "http://localhost/security.php",
+                "http://localhost/vulnerabilities/captcha/",
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
             ]
         },
         {
@@ -211,27 +234,27 @@
                 }
             ],
             "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
                 "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
                 "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
                 "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
                 "http://localhost/security.php",
                 "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
             ]
         },
         {
@@ -261,27 +284,27 @@
                 }
             ],
             "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
                 "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
                 "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
                 "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
                 "http://localhost/security.php",
                 "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
             ]
         },
         {
@@ -301,27 +324,27 @@
                 }
             ],
             "links": [
-                "http://localhost/",
-                "http://localhost/vulnerabilities/xss_r/",
                 "http://localhost/vulnerabilities/brute/",
-                "http://localhost/vulnerabilities/upload/",
                 "http://localhost/vulnerabilities/sqli_blind/",
-                "http://localhost/about.php",
-                "http://localhost/phpinfo.php",
-                "http://localhost/vulnerabilities/xss_d/",
-                "http://localhost/vulnerabilities/exec/",
                 "http://localhost/vulnerabilities/csrf/",
-                "http://localhost/vulnerabilities/fi/?page=include.php",
-                "http://localhost/vulnerabilities/sqli/",
-                "http://localhost/setup.php",
-                "http://localhost/vulnerabilities/xss_s/",
-                "http://localhost/instructions.php",
-                "http://localhost/vulnerabilities/javascript/",
-                "http://localhost/logout.php",
-                "http://localhost/vulnerabilities/csp/",
                 "http://localhost/security.php",
                 "http://localhost/vulnerabilities/captcha/",
-                "http://localhost/vulnerabilities/weak_id/"
+                "http://localhost/vulnerabilities/exec/",
+                "http://localhost/vulnerabilities/xss_r/",
+                "http://localhost/vulnerabilities/javascript/",
+                "http://localhost/phpinfo.php",
+                "http://localhost/logout.php",
+                "http://localhost/vulnerabilities/upload/",
+                "http://localhost/setup.php",
+                "http://localhost/vulnerabilities/weak_id/",
+                "http://localhost/vulnerabilities/xss_d/",
+                "http://localhost/vulnerabilities/csp/",
+                "http://localhost/vulnerabilities/sqli/",
+                "http://localhost/",
+                "http://localhost/vulnerabilities/xss_s/",
+                "http://localhost/about.php",
+                "http://localhost/vulnerabilities/fi/?page=include.php",
+                "http://localhost/instructions.php"
             ]
         }
     ],
@@ -352,9 +375,9 @@
                 "http://localhost:8080/user_extra.php",
                 "http://localhost:8080/logout.php",
                 "http://localhost:8080/password_change.php",
-                "http://localhost:8080/credits.php",
                 "http://localhost:8080/security_level_set.php",
-                "http://localhost:8080/reset.php"
+                "http://localhost:8080/reset.php",
+                "http://localhost:8080/credits.php"
             ]
         },
         {
@@ -411,12 +434,12 @@
                 }
             ],
             "links": [
-                "http://localhost:8080/portal.php",
                 "http://localhost:8080/logout.php",
                 "http://localhost:8080/password_change.php",
-                "http://localhost:8080/credits.php",
                 "http://localhost:8080/security_level_set.php",
-                "http://localhost:8080/reset.php"
+                "http://localhost:8080/portal.php",
+                "http://localhost:8080/reset.php",
+                "http://localhost:8080/credits.php"
             ]
         },
         {
@@ -441,9 +464,9 @@
                 }
             ],
             "links": [
+                "http://localhost:8080/user_new.php",
                 "http://localhost:8080/training.php",
-                "http://localhost:8080/info.php",
-                "http://localhost:8080/user_new.php"
+                "http://localhost:8080/info.php"
             ]
         },
         {
@@ -477,34 +500,22 @@
             "url": "http://localhost:3000",
             "forms": [],
             "links": [
-                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/contact",
                 "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
                 "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/#/login"
-            ]
-        },
-        {
-            "url": "http://localhost:3000/#/about",
-            "forms": [],
-            "links": [
-                "http://localhost:3000/#/about",
-                "http://localhost:3000/#/contact",
-                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
-                "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/ftp/legal.md",
-                "http://localhost:3000/#/login"
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/about"
             ]
         },
         {
             "url": "http://localhost:3000/#/contact",
             "forms": [],
             "links": [
-                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/contact",
                 "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
                 "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/#/login"
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/about"
             ]
         },
         {
@@ -518,63 +529,75 @@
             "url": "http://localhost:3000/#/photo-wall",
             "forms": [],
             "links": [
-                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/contact",
                 "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
                 "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/#/login"
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/about"
             ]
         },
         {
             "url": "http://localhost:3000/#/login",
             "forms": [],
             "links": [
-                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/contact",
                 "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
                 "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/#/forgot-password",
                 "http://localhost:3000/#/login",
+                "http://localhost:3000/#/forgot-password",
+                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/register"
             ]
         },
         {
-            "url": "http://localhost:3000/ftp/legal.md",
+            "url": "http://localhost:3000/#/about",
             "forms": [],
-            "links": []
+            "links": [
+                "http://localhost:3000/#/contact",
+                "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
+                "http://localhost:3000/#/photo-wall",
+                "http://localhost:3000/ftp/legal.md",
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/about"
+            ]
         },
         {
             "url": "http://localhost:3000/",
             "forms": [],
             "links": [
-                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/contact",
                 "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
                 "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/#/login"
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/about"
             ]
         },
         {
             "url": "http://localhost:3000/#/forgot-password",
             "forms": [],
             "links": [
-                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/contact",
                 "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
                 "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/#/login"
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/about"
             ]
         },
         {
             "url": "http://localhost:3000/#/register",
             "forms": [],
             "links": [
-                "http://localhost:3000/#/about",
                 "http://localhost:3000/#/contact",
                 "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
                 "http://localhost:3000/#/photo-wall",
-                "http://localhost:3000/#/login"
+                "http://localhost:3000/#/login",
+                "http://localhost:3000/#/about"
             ]
+        },
+        {
+            "url": "http://localhost:3000/ftp/legal.md",
+            "forms": [],
+            "links": []
         }
     ]
 }
